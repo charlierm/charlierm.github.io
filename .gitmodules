@@ -1,3 +1,6 @@
 [submodule "plugins"]
 	path = plugins
 	url = https://github.com/getpelican/pelican-plugins
+[submodule "theme/flasky"]
+	path = theme/flasky
+	url = git@github.com:charlierm/flasky.git
