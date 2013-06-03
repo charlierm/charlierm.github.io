@@ -60,6 +60,8 @@ DEFAULT_PAGINATION = 10
 
 DEFAULT_CATEGORY = 'Uncategorized'
 
+SUMMARY_MAX_LENGTH = None
+
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
