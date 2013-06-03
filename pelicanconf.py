@@ -49,9 +49,16 @@ GITHUB_URL = 'http://github.com/charlierm'
 
 
 GOOGLE_ANALYTICS_ACCOUNT = 'UA-41412641-1'
+GOOGLE_ANALYTICS = 'UA-41412641-1'
+
+PIWIK_URL = 'vps.computerbacon.com/piwik'
+PIWIK_SSL_URL = 'vps.computerbacon.com/piwik'
+PIWIK_SITE_ID = '1'
+
 
 FEED_RSS = 'feeds/all.rss.xml'
 CATEGORY_FEED_RSS = 'feeds/%s.rss.xml'
+
 
 ARTICLE_URL = "posts/{date:%Y}/{date:%b}/{date:%d}/{slug}/"
 ARTICLE_SAVE_AS = 'posts/{date:%Y}/{date:%b}/{date:%d}/{slug}/index.html'
