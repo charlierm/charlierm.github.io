@@ -47,6 +47,9 @@ TWITTER_USERNAME = 'charlesthe6th'
 LINKEDIN_URL = 'http://uk.linkedin.com/in/computerbacon'
 GITHUB_URL = 'http://github.com/charlierm'
 
+
+GOOGLE_ANALYTICS_ACCOUNT = 'UA-41412641-1'
+
 FEED_RSS = 'feeds/all.rss.xml'
 CATEGORY_FEED_RSS = 'feeds/%s.rss.xml'
 
