@@ -39,25 +39,17 @@
 
   <div class="container">
 
+<header class="title">
+	<a href="/" class="btn btn-default btn" id="back-button" role="button"><span class="glyphicon glyphicon-chevron-left"></span>     Back   </a>
+	<h2>Playing audio in Python with libVLC</h2>
+	<p>Sat 01 March 2014</p>
+  <p>Posted by: Charlie Mills</p>
+	
+</header>
 
-
-      <header>
-          <h1 id="fuckingheader">Charles Mills</h1>
-          <p>Technical musings of an unemployable <a class="ginger" href="http://en.wikipedia.org/wiki/Ginger_hair">ginger</a>.</p>
-      </header>
-
-
-
-
-  <div class="post">
+<div class="post">
     <div class="row">
       <div class="col-md-12">
-        <h2><a href="/playing-audio-in-python-with-libvlc.html">Playing audio in Python with libVLC </a> 
-          <span class="label label-default" style="background-color: #CC6600;">Python</span>
-          <span class="label label-default" style="background-color: #CC6600;">Audio</span>
-          <span class="label label-default" style="background-color: #CC6600;">VLC</span>
-        </h2>
-        <p class="post-subtitle">Sat 01 March 2014</p>
         <p><a href="https://wiki.videolan.org/LibVLC/">Libvlc</a> is the library which is behind VLC, it is an incredibly stable and feature packed library with builds for pretty much every platform. More recently it has been relicensed from GPL to LGPL, allowing it to be used in proprietary projects. Unlike other audio playback libraries, libvlc is incredibly well documented, making it particularly good for beginners. </p>
 <p>With every libvlc release, Python <a href="https://wiki.videolan.org/PythonBinding/">bindings</a> are automatically generated. These bindings are based on <a href="http://docs.python.org/2/library/ctypes.html">ctypes</a> which allows them to be used with <a href="http://pypy.org/">pypy</a> and other python implementations.</p>
 <p>Libvlc provides the same support for codecs and formats as VLC player, making it a simple process to play virtually any format using the Python bindings. The first step is to download the bindings, adding them to your project directory.</p>
@@ -111,45 +103,7 @@
     </div>
   </div>
 
-
-  <div class="post">
-    <div class="row">
-      <div class="col-md-12">
-        <h2><a href="/embarrassing-first-post.html">Embarrassing First Post </a> 
-          <span class="label label-default" style="background-color: #CC6600;">Python</span>
-          <span class="label label-default" style="background-color: #CC6600;">Useless</span>
-        </h2>
-        <p class="post-subtitle">Fri 28 February 2014</p>
-        <p>This post serves no purpose other than to fill the inevitable void. Last week at an interview I was asked to write a Fibonacci function, it seems regurgitation of Computer Science theory makes you employable, so here they are in Python.</p>
-<h4>Recursive</h4>
-<div class="highlight"><pre><span class="k">def</span> <span class="nf">f</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
-    <span class="k">if</span> <span class="n">n</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
-        <span class="k">return</span> <span class="mi">0</span>
-    <span class="k">if</span> <span class="n">n</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
-        <span class="k">return</span> <span class="mi">1</span>
-    <span class="k">else</span><span class="p">:</span>
-        <span class="k">return</span> <span class="n">f</span><span class="p">(</span><span class="n">n</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span> <span class="o">+</span> <span class="n">f</span><span class="p">(</span><span class="n">n</span><span class="o">-</span><span class="mi">2</span><span class="p">)</span>
-</pre></div>
-
-
-<h4>Iterative</h4>
-<div class="highlight"><pre><span class="k">def</span> <span class="nf">f</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
-    <span class="n">a</span> <span class="o">=</span> <span class="mi">0</span>
-    <span class="n">b</span> <span class="o">=</span> <span class="mi">1</span>
-    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">n</span><span class="p">):</span>
-        <span class="n">a</span><span class="p">,</span> <span class="n">b</span> <span class="o">=</span> <span class="n">b</span><span class="p">,</span> <span class="n">a</span> <span class="o">+</span> <span class="n">b</span>
-    <span class="k">return</span> <span class="n">a</span>
-</pre></div>
-
-
-<p>Please revel in the usefulness of these numbers (excuse the bitterness).</p>
-      </div>
-    </div>
-  </div>
-
-
-
-
+  <div class="pagination"></div>
 
 
 
