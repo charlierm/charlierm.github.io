@@ -41,3 +41,21 @@ EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
 TWITTER_USERNAME = 'charlesthe6th'
 
 SITEURL = 'http://blog.computerbacon.com'
+
+
+PLUGIN_PATH = 'plugins'
+PLUGINS = ['sitemap']
+
+SITEMAP = {
+    'format': 'xml',
+    'priorities': {
+        'articles': 0.5,
+        'indexes': 0.5,
+        'pages': 0.5
+    },
+    'changefreqs': {
+        'articles': 'monthly',
+        'indexes': 'daily',
+        'pages': 'monthly'
+    }
+}
