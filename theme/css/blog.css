@@ -11,6 +11,10 @@ h2{
     color: #333333;
 }
 
+.tags{
+    font-size: 31.5px;
+}
+
 .post h2 a:hover{
     color: #CC6600;
     text-decoration:none;
