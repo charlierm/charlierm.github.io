@@ -34,3 +34,6 @@ THEME = "themes/theme"
 #RELATIVE_URLS = True
 
 GOOGLE_ANALYTICS = 'UA-41412641-1'
+
+STATIC_PATHS = ['extra/CNAME']
+EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
