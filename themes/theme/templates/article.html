@@ -11,6 +11,11 @@ Computerbacon
 	<h2>{{ article.title }}</h2>
 	<p>{{ article.locale_date }}</p>
   <p>Posted by: {{ article.author }}</p>
+  <span class="tags">{% if article.tags %}
+          {% for tag in article.tags %}
+          <span class="label label-default" style="background-color: #CC6600;">{{ tag }}</span>
+          {% endfor %}
+        {% endif %}</span>
 	
 </header>
 
