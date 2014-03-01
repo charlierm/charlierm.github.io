@@ -37,3 +37,7 @@ GOOGLE_ANALYTICS = 'UA-41412641-1'
 
 STATIC_PATHS = ['extra/CNAME']
 EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
+
+TWITTER_USERNAME = 'charlesthe6th'
+
+SITEURL = 'http://blog.computerbacon.com'
